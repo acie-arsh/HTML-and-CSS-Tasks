@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Screen</title>
+    <style>
+        .login-container {
+            margin-top: 15px;
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .profile-picture, img {
+            width: 100px;
+            height: 100px;
+            background-color: #ccc;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+        }
+
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px -10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        .login-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .remember-me {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .cancel-button {
+            background-color: #FF5733;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .forgot-password {
+            margin-top: 10px;
+            text-decoration: underline;
+            color: #4285f4;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Task 6</h1>
+    <a href="taskindex.html">Task List</a>
+    <div class="login-container">
+        <div class="profile-picture">
+            <img src="https://thumbs.dreamstime.com/b/icon-profile-color-green-circle-dark-background-white-not-shadow-194702093.jpg" alt="">
+        </div>
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="Password">
+        <br>
+        <input type="checkbox" class="remember-me"> Remember me
+        <br>
+        <button class="login-button">Login</button>
+        <button class="cancel-button">Cancel</button>
+        <br>
+        <span class="forgot-password">Forgot Password?</span>
+    </div>
+</body>
+</html>
